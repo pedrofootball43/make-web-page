@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>ページの構造を表現する</title>
+</head>
+<body>
+    <header>
+        <h1>センティックなマークアップ</h1>
+        <p>各範囲に適切なマークアップをすることで論理的な意味を持たせることができる。</p>
+    </header>
+
+    <article>
+        <section>
+            <h1>section要素</h1>
+            <p>ページ内に明確に章・節・項などの範囲を作るのに用いられる要素。
+                特定の意味を持たない汎用的な範囲には使用しない</p>
+        </section>
+        <section>
+            <h1>div要素</h1>
+            <p>装飾やレイアウトのための汎用的な範囲を作るのに用いられる要素。
+                論理的な意味を持たない「ただの範囲」を指定するために使用</p>
+        </section>
+    </article>
+    <footer>
+        <!-- smallタグ → 文字を一回り小さくする、警告、著作権等を記載 -->
+        <!-- &copy; コピーライターを意味するらしい -->
+        <small>
+            &copy;2020 LA All Right Reserved.
+        </small>
+    </footer>
+    
+</body>
+</html>
