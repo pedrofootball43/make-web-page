@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>名前募集</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <h1>猫の名前を募集します</h1>
+    <form action="">
+        <p>
+            <label for="name">回答者名：</label><input type="text" name="name" id="name">
+        </p>
+        <p>
+            <label for="catName">猫の名前：</label><input type="text" name="catName" id="catName">
+        </p>
+        <p>
+            <label for="color">色：</label><input type="text" name="color" id="color">
+        </p>
+        <p>
+            <label for="type">柄：</label>
+            <select size="1" name="type" id="type">
+                <option value="simple" selected>
+                    単色
+                </option>
+                <option value="tiger">
+                    トラ
+                </option>
+                <option value="calico">
+                    ミケ
+                </option>
+                <option value="other">
+                    その他
+                </option>
+            </select>
+
+            <label for="other">その他：</label><input type="text" name="typeOther" id="other">
+        </p>
+        <p>
+            <label for="eye">目：</label><input type="radio" name="eye" value="s" id="eye">普通
+            <input type="radio" name="eye" value="odd">オッドアイ
+        </p>
+        <p>
+            <label for="personal">性格：</label><input type="checkbox" name="personal" value="active" id="personal">暴君
+            <input type="checkbox" name="personal" value="weak">臆病
+            <input type="checkbox" name="personal" value="capricious">気まぐれ
+            <input type="checkbox" name="personal" value="sweet">甘えん坊
+            <input type="checkbox" name="personal" value="tsundere">ツンデレ
+        </p>
+        <p>
+            <input type="submit" value="送信">
+        </p>
+    </form>
+
+    <p>
+        色と性格の関係については
+        <a href="https://www.google.co.jp">Google</a>
+        で検索
+    </p>
+
+    <p><a href="catpage.html">猫紹介ページへ戻る</a></p>
+
+</body>
+</html>
