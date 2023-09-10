@@ -1,8 +1,16 @@
-
-#imgYuki{
+#introImg{
     display: inline-block;
     box-sizing: border-box;
     width: 50%;
     max-width: 450px;
     min-width: 280px;
+}
+
+table{
+    display: inline-block;
+    text-align: center;
+}
+
+td{
+    min-width: 80px;
 }
