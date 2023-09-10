@@ -1,0 +1,33 @@
+body{
+    background-color: blanchedalmond;
+    text-align: center;
+    margin-top: 0px;
+}
+
+.menu{
+    display: flex;
+    justify-content: center;
+}
+
+.menu li{
+    background-color: bisque;
+    border: solid 1px;
+    border-color: black;
+    list-style: none;
+    width: 20%;
+    max-width: 100px;
+    min-width: 50px;
+    margin: 0px;
+    padding: 0px 35px;
+    height: 30px;
+
+}
+
+/* 画像のサイズ等の指定 */
+/* #imgYuki{
+    display: inline-block;
+    box-sizing: border-box;
+    width: 50%;
+    max-width: 450px;
+    min-width: 280px;
+} */
